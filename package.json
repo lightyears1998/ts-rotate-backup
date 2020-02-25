@@ -1,0 +1,33 @@
+{
+  "name": "ts-rotate-backup",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "author": "lightyears1998 <lightyears1998@hotmail.com>",
+  "license": "Unlicense",
+  "private": true,
+  "scripts": {
+    "lint": "eslint src --ext .ts --fix",
+    "build": "tsc",
+    "start": "node lib/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@types/fs-extra": "^8.1.0",
+    "@types/node": "^13.7.4",
+    "@types/tar": "^4.0.3",
+    "fs-extra": "^8.1.0",
+    "klaw-sync": "^6.0.0",
+    "lzma-native": "^6.0.0",
+    "moment": "^2.24.0",
+    "tar": "^6.0.1"
+  },
+  "devDependencies": {
+    "@types/klaw-sync": "^6.0.0",
+    "@types/lzma-native": "^4.0.0",
+    "@typescript-eslint/eslint-plugin": "^2.21.0",
+    "@typescript-eslint/parser": "^2.21.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.1",
+    "typescript": "^3.8.2"
+  }
+}
